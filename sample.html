@@ -12,16 +12,20 @@
 <script>
     $(document).ready(()=>{
         schedule('#schedule', {
+            period_from: '2018-09-01 00:00:00',
+            period_to: '2018-10-30 00:00:00',
             schedule_info: [
                 {
                     id: 1,
+                    status: 'OK',
                     category: 'cat1',
                     title: 'xxx',
                     start_date: '2018-09-01 00:00:00',
-                    end_date: '2018-09-01 00:00:00'
+                    end_date: '2018-09-02 11:59:59'
                 },
                 {
                     id: 2,
+                    status: 'OK',
                     category: 'cat2',
                     title: 'yyy',
                     start_date: '2018-09-10 00:00:00',
@@ -32,7 +36,9 @@
     });
 </script>
     <div class="row">
-        <div id="schedule" style="width: 700px;height: 200px;"></div>
+        <div class="col-md-11 col-md-offset-1">
+            <div id="schedule" style="width: 2800px;height: 200px;"></div>
+        </div>
     </div>
 <div class="row">
     <div class="col-md-3 col-md-offset-1">
