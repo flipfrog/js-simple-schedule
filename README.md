@@ -19,20 +19,20 @@ schedule(selector ,opt);
 
   |Property|Description|
   |---|---|
-  |period_from|Datetime for displaying from on screen like following ```'2018-09-01 00:00:00'```|.
-  |period_to|Datetime for displaying to on screen.|
-  |schedule_info|This property's type is array.Each element of array contains schedule info for each schedule bars respectively(To see following table).|
+  |period_from|Datetime for displaying-from on screen like  ```'2018-09-01 00:00:00'```|.
+  |period_to|Datetime for displaying-to on screen.|
+  |schedule_info|This property's type is array. Each element contains schedule info for each schedule bars respectively(To see following table).|
 
-  ```schedule_info```array has following properties.
+  Element of ```schedule_info```array has following properties.
 
   |Property|Description|
   |---|---|
-  |id|Schedule id.This value will be drawn on own schedule bar.|
+  |id|Schedule id. This value will be drawn on own schedule bar.|
   |status|Schedule status.|
-  |status_label|Schedule status label.This value will be drawn on own schedule bar.|
-  |category|Schedule category.This value will be drawn on own schedule bar.|
-  |target_type_label|Target type label.This value will be drawn on own schedule bar.|
-  |title|Title (label).This value will be drawn on own schedule bar.|
+  |status_label|Schedule status label. This value will be drawn on own schedule bar.|
+  |category|Schedule category. This value will be drawn on own schedule bar.|
+  |target_type_label|Target type label. This value will be drawn on own schedule bar.|
+  |title|Title (label). This value will be drawn on own schedule bar.|
   |start_date|Start datetime of schedule.|
   |end_date|End datetime of schedule.|
 
